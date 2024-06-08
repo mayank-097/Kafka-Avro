@@ -1,0 +1,12 @@
+{"name" : "Request",
+ "type" : "record",
+ "namespace" : "example.avro",
+ "fields" : [
+        {"name" : "requestId" , "type" : "string"},
+        {"name" : "requestUserName" , "type" : "string"},
+        {"name" : "requestPriority" , "type" : "string"},
+        {"name" : "requestMessageType" , "type" : "string"},
+        {"name" : "requestChannelType" , "type" : "string"},
+        {"name" : "requestMessage" , "type" : "string"}
+ ]
+}
